@@ -1,0 +1,6 @@
+<?php if ($this->getNotificationPopupEnable()): ?>
+    <div id="vmr-notification_popup" style="display: none;"
+         data-mage-init='{"Vmr_NotificationPopup/js/init": {"title": "<?php echo $this->getNotificationPopupDisplayHeading(); ?>"}}'>
+        <?php echo $this->getNotificationPopupDisplayText(); ?>
+    </div>
+<?php endif; ?>
