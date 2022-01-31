@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-Simple Module to Enable popup in Magento2
+Simple Module to Enable popup based on start date and end date in Magento2
 
 ## Installation
 \* = in production please use the `--keep-generated` option
