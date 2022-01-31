@@ -22,10 +22,32 @@
                 <field id="display_heading" translate="label" type="text" sortOrder="20" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Heading</label>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
                 </field>
                 <field id="display_text" translate="label" type="textarea" sortOrder="30" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Text</label>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                </field>
+                <field id="start_date" translate="label" type="date" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="40">
+                    <label>Start Date</label>
+                    <frontend_model>Vmr\NotificationPopup\Block\Adminhtml\System\Config\Date</frontend_model>
+                    <validate>required-entry</validate>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                </field>
+                <field id="end_date" translate="label" type="date" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="50">
+                    <label>End Date</label>
+                    <frontend_model>Vmr\NotificationPopup\Block\Adminhtml\System\Config\Date</frontend_model>
+                    <validate>required-entry</validate>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
                 </field>
             </group>
         </section>
