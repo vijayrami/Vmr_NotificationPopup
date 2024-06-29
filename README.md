@@ -37,9 +37,9 @@ Simple Module to Enable popup based on start date and end date in Magento2
 
 ## Configuration
 
-[![Configuration-Settings-Stores-Magento-Admin.png](https://i.postimg.cc/QNQs7jhb/Configuration-Settings-Stores-Magento-Admin.png)](https://postimg.cc/143Lhhgn)
+![admin-config-1](/assests/first.png)
 
-[![Screenshot-from-2022-01-31-12-17-48.png](https://i.postimg.cc/tTdfsCWn/Screenshot-from-2022-01-31-12-17-48.png)](https://postimg.cc/phTk7v0P)
+![admin-config-2](/assests/second.png)
 
 ## Specifications
 
